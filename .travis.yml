@@ -1,6 +1,6 @@
 # Run a simple ruby script to test the project (pattern borrowed from the Rails project)
 script:
- - "ci/travis.rb"
+ - "test/travis.rb"
 
 # Compass is Ruby
 language: ruby
