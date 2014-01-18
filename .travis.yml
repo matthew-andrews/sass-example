@@ -7,7 +7,6 @@ language: ruby
 rvm:
  - 2.1.0
 
-# Install compass
+# Install Sass
 before_install:
  - gem install sass
- - gem install compass
