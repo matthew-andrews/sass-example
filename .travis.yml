@@ -1,12 +1,5 @@
-# Run a simple ruby script to test the project (pattern borrowed from the Rails project)
 script:
  - "test/travis.rb"
 
-# Compass is Ruby
-language: ruby
-rvm:
- - 2.1.0
-
-# Install Sass
 before_install:
  - gem install sass
